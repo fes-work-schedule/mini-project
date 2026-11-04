@@ -177,8 +177,7 @@ SOCIAL
 
 */
 
-#about, 
-#social {
+#about, #social {
   padding: 24px 0;
   width: 100%;
   max-width: 1200px;
@@ -253,12 +252,22 @@ CONTACT
 
 }
 
-.form {
+form {
   width: 100%;
   max-width: 900px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24 px;
+  gap: 12px;
   
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 500px;
+  border-radius: 6px;
 }
 
